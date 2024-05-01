@@ -397,570 +397,91 @@ def lev_1():
         AA = int(input("Ответ:"))
         if AA == 6:
             print("Молодец!")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
+            menu()
         elif AA != 6:
             print("Неправильно,ты проиграл")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
-                elif o in ["4"]:
-                    pashalki()
-                else:
-                    print("Вы неправильно ввели номер программы")
-            elif hh in ["2"]:
-                print("Выбери уровень")
-                print("1 уровень")
-                print("2 уровень")
-                print("3 уровень")
-                nn = input("Выбери сложность:")
-                if nn == ("1"):
-                    lev_1()
-                elif nn == ("2"):
-                    lev_2()
-                elif nn == ("3"):
-                    lev_3()
-                else:
-                    print("Вы некорректно ввели номер программы")
-            else:
-                print("Вы неправильно указали номер программы")
+            menu()
     elif l_1 in ["2"]:
         print("8+1")
         AA = int(input("Ответ:"))
         if AA == 9:
             print("Молодец!")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
+            menu()
         elif AA != 9:
             print("Неправильно,ты проиграл")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
-                elif o in ["4"]:
-                    pashalki()
-                else:
-                    print("Вы неправильно ввели номер программы")
-            elif hh in ["2"]:
-                print("Выбери уровень")
-                print("1 уровень")
-                print("2 уровень")
-                print("3 уровень")
-                nn = input("Выбери сложность:")
-                if nn == ("1"):
-                    lev_1()
-                elif nn == ("2"):
-                    lev_2()
-                elif nn == ("3"):
-                    lev_3()
-                else:
-                    print("Вы некорректно ввели номер программы")
-            else:
-                print("Вы неправильно указали номер программы")
+            menu()
     elif l_1 in ["3"]:
         print("4+10")
         AA = int(input("Ответ:"))
         if AA == 14:
             print("Молодец!")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
+            menu()
         elif AA != 14:
             print("Неправильно,ты проиграл")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
-                elif o in ["4"]:
-                    pashalki()
-                else:
-                    print("Вы неправильно ввели номер программы")
-            elif hh in ["2"]:
-                print("Выбери уровень")
-                print("1 уровень")
-                print("2 уровень")
-                print("3 уровень")
-                nn = input("Выбери сложность:")
-                if nn == ("1"):
-                    lev_1()
-                elif nn == ("2"):
-                    lev_2()
-                elif nn == ("3"):
-                    lev_3()
-                else:
-                    print("Вы некорректно ввели номер программы")
-            else:
-                print("Вы неправильно указали номер программы")
+            menu()
     elif l_1 in ["4"]:
         print("2+9")
         AA = int(input("Ответ:"))
         if AA == 11:
             print("Молодец!")
+            menu()
         elif AA != 11:
             print("Неправильно,ты проиграл")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
-                elif o in ["4"]:
-                    pashalki()
-                else:
-                    print("Вы неправильно ввели номер программы")
-            elif hh in ["2"]:
-                print("Выбери уровень")
-                print("1 уровень")
-                print("2 уровень")
-                print("3 уровень")
-                nn = input("Выбери сложность:")
-                if nn == ("1"):
-                    lev_1()
-                elif nn == ("2"):
-                    lev_2()
-                elif nn == ("3"):
-                    lev_3()
-                else:
-                    print("Вы некорректно ввели номер программы")
-            else:
-                print("Вы неправильно указали номер программы")
+            menu()
     elif l_1 in ["5"]:
         print("5+8")
         AA = int(input("Ответ:"))
         if AA == 13:
             print("Молодец!")
+            menu()
         elif AA != 13:
             print("Неправильно,ты проиграл")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
-                elif o in ["4"]:
-                    pashalki()
-                else:
-                    print("Вы неправильно ввели номер программы")
-            elif hh in ["2"]:
-                print("Выбери уровень")
-                print("1 уровень")
-                print("2 уровень")
-                print("3 уровень")
-                nn = input("Выбери сложность:")
-                if nn == ("1"):
-                    lev_1()
-                elif nn == ("2"):
-                    lev_2()
-                elif nn == ("3"):
-                    lev_3()
-                else:
-                    print("Вы некорректно ввели номер программы")
-            else:
-                print("Вы неправильно указали номер программы")
+            menu()
     elif l_1 in ["6"]:
         print("10-6")
         AA = int(input("Ответ:"))
         if AA == 4:
             print("Молодец!")
+            menu()
         elif AA != 4:
             print("Неправильно,ты проиграл")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
-                elif o in ["4"]:
-                    pashalki()
-                else:
-                    print("Вы неправильно ввели номер программы")
-            elif hh in ["2"]:
-                print("Выбери уровень")
-                print("1 уровень")
-                print("2 уровень")
-                print("3 уровень")
-                nn = input("Выбери сложность:")
-                if nn == ("1"):
-                    lev_1()
-                elif nn == ("2"):
-                    lev_2()
-                elif nn == ("3"):
-                    lev_3()
-                else:
-                    print("Вы некорректно ввели номер программы")
-            else:
-                print("Вы неправильно указали номер программы")
+            menu()
     elif l_1 in ["7"]:
         print("3-1")
         AA = int(input("Ответ:"))
         if AA == 2:
             print("Молодец!")
+            menu()
         elif AA != 2:
             print("Неправильно,ты проиграл")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
-                elif o in ["4"]:
-                    pashalki()
-                else:
-                    print("Вы неправильно ввели номер программы")
-            elif hh in ["2"]:
-                print("Выбери уровень")
-                print("1 уровень")
-                print("2 уровень")
-                print("3 уровень")
-                nn = input("Выбери сложность:")
-                if nn == ("1"):
-                    lev_1()
-                elif nn == ("2"):
-                    lev_2()
-                elif nn == ("3"):
-                    lev_3()
-                else:
-                    print("Вы некорректно ввели номер программы")
-            else:
-                print("Вы неправильно указали номер программы")
+            menu()
     elif l_1 in ["8"]:
         print("12-4")
         AA = int(input("Ответ:"))
         if AA == 8:
             print("Молодец!")
+            menu()
         elif AA != 8:
             print("Неправильно,ты проиграл")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
-                elif o in ["4"]:
-                    pashalki()
-                else:
-                    print("Вы неправильно ввели номер программы")
-            elif hh in ["2"]:
-                print("Выбери уровень")
-                print("1 уровень")
-                print("2 уровень")
-                print("3 уровень")
-                nn = input("Выбери сложность:")
-                if nn == ("1"):
-                    lev_1()
-                elif nn == ("2"):
-                    lev_2()
-                elif nn == ("3"):
-                    lev_3()
-                else:
-                    print("Вы некорректно ввели номер программы")
-            else:
-                print("Вы неправильно указали номер программы")
+            menu()
     elif l_1 in ["9"]:
         print("9-5")
         AA = int(input("Ответ:"))
         if AA == 4:
             print("Молодец!")
+            menu()
         elif AA != 4:
             print("Неправильно,ты проиграл")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
-                elif o in ["4"]:
-                    pashalki()
-                else:
-                    print("Вы неправильно ввели номер программы")
-            elif hh in ["2"]:
-                print("Выбери уровень")
-                print("1 уровень")
-                print("2 уровень")
-                print("3 уровень")
-                nn = input("Выбери сложность:")
-                if nn == ("1"):
-                    lev_1()
-                elif nn == ("2"):
-                    lev_2()
-                elif nn == ("3"):
-                    lev_3()
-                else:
-                    print("Вы некорректно ввели номер программы")
-            else:
-                print("Вы неправильно указали номер программы")
+            menu()
     elif l_1 in ["10"]:
         print("7-6")
         AA = int(input("Ответ:"))
         if AA == 1:
             print("Молодец!")
+            menu()
         elif AA != 1:
             print("Неправильно,ты проиграл")
-            hh = input("Что нибудь ещё? 1 = вернуться в меню, 2 = продолжить:")
-            if hh in ["1"]:
-                naczalo()
-                o = input("Введи номер требуемой программы:        ")
-                if o in ["1"]:
-                    kalkulator()
-                elif o in ["2"]:
-                    tut_wopros
-                elif o in ["3"]:
-                    print("Давай поиграем!")
-                    print("Выбери сложность")
-                    print("1 уровень")
-                    print("2 уровень")
-                    print("3 уровень")
-                    nn = input("Выбери сложность:")
-                    if nn == ("1"):
-                        lev_1()
-                    elif nn == ("2"):
-                        lev_2()
-                    elif nn == ("3"):
-                        lev_3()
-                    else:
-                        print("Вы некорректно ввели номер программы")
-                elif o in ["4"]:
-                    pashalki()
-                else:
-                    print("Вы неправильно ввели номер программы")
-            elif hh in ["2"]:
-                print("Выбери уровень")
-                print("1 уровень")
-                print("2 уровень")
-                print("3 уровень")
-                nn = input("Выбери сложность:")
-                if nn == ("1"):
-                    lev_1()
-                elif nn == ("2"):
-                    lev_2()
-                elif nn == ("3"):
-                    lev_3()
-                else:
-                    print("Вы некорректно ввели номер программы")
-            else:
-                print("Вы неправильно указали номер программы")
+            menu()
 
 
 def lev_2():
