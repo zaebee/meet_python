@@ -40,13 +40,13 @@ def reader_csv(filename):
                 print (msg)
         return result
    
-def update_user(name, name_2, amount):
+def update_user(sender, receiver, amount):
     data = reader_csv('balansy.csv')
-    for ww in data:
-        if ww['1'] == name:
-            ww['2'] = int(ww['2']) + int(amount if amount else 0)
-        elif ww ['1'] == name_2:
-            ww['2'] = int(ww['2']) - int(amount if amount else 0)    
+    for row in data:
+        if row['1'] == sender:
+            row['2'] = int(row['2']) - int(amount if amount else 0)
+        elif row['1'] == receiver:
+            row['2'] = int(row['2']) + int(amount if amount else 0)    
     writer_csv('balansy.csv', ['1', '2'], data, 'w')
 
 def konec_csv(file_name, new_row):
