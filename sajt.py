@@ -20,15 +20,34 @@ def writer_csv(filename, fieldnames, data, mode='a+'):
         writer = csv.DictWriter(fp, fieldnames = fieldnames)
         writer.writeheader()
         writer.writerows(data)
-    
+ 
+def reader_csv(filename):
+    os.system('cls')
+    filename_path = os.path.join(PATH_PREFIX, filename)
+    with open(filename_path, 'r') as f:
+        reader = csv.DictReader(f)
+        result = []
+        for row in reader:
+            result.append(row)
+            if filename == 'stat.csv':
+                for key, value in row.items():
+                    pass
+                    print (f"{key}:{value}")
+            else:
+                name = row.get("1")
+                balance = row.get("2")
+                msg = f"{name}: {balance}"
+                print (msg)
+        return result
+   
 def update_user(name, name_2, amount):
-    data = reader_csv('balancy.csv')
+    data = reader_csv('balansy.csv')
     for ww in data:
         if ww['1'] == name:
             ww['2'] = int(ww['2']) + int(amount if amount else 0)
         elif ww ['1'] == name_2:
             ww['2'] = int(ww['2']) - int(amount if amount else 0)    
-    writer_csv('balancy.csv', ['1', '2'], data, 'w')
+    writer_csv('balansy.csv', ['1', '2'], data, 'w')
 
 def konec_csv(file_name, new_row):
     with open(file_name, 'a') as file:
@@ -60,6 +79,7 @@ def timer(seconds):
 def wlożenie():
     os.system('cls')
     print ("Введите имя клиента")
+    # TODO: user `reader_csv` function instead of csv.DictReader
     reader = list(csv.DictReader(open('names.csv', 'r')))
     names = [row['name']for row in reader]
     for row in reader:
@@ -74,10 +94,8 @@ def tr():
     os.system('cls')
     try:
         print ("Выбери отправителя и получателя. Пишите в точности как показано!")
-        reader = list(csv.DictReader(open('names.csv', 'r')))
-        names = [row["name"] for row in reader]
-        for row in reader:
-            print (f"{row['name']}")
+        data = reader_csv('balansy.csv')
+        names = [row["1"] for row in data]
         sender = input("Введите отправителя:")
         if not sender in names:
             print("Клиент не обнаружен!")
@@ -124,20 +142,6 @@ def names(filename):
         msg = f"{name}"
         print (msg)
 
-def reader_csv(filename):
-    os.system('cls')
-    prefix = 'C:\\python_programs\\programma_sayt\\wallet\\'
-    with open(prefix + filename, 'r') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            if filename == 'stat.csv':
-                for key, value in row.items():
-                    print (f"{key}:{value}")
-            else:
-                name = row.get("1")
-                balance = row.get("2")
-                msg = f"{name}: {balance}"
-                print (msg)
 
 def start():
     os.system('cls')
@@ -152,7 +156,7 @@ def start():
     enter = input("Место ввода здесь: ")
     enter = enter.lower().strip()
     if enter in ["1","балансы","балансы клиентов","баланс"]:
-        reader_csv('balancy.csv')
+        reader_csv('balansy.csv')
         cycl()
     elif enter in ["2","транзакции"]:
         tranzation()
